@@ -74,3 +74,15 @@ nav .pages a.logo span {
 nav .pages a.logo:hover span {
     translate: var(--move-dir);
 }
+
+@media (max-width: 950px) {
+    nav .pages {
+        right: 25px;
+        width: unset;
+        padding: 10px;
+    }
+
+    nav .pages a {
+        font-size: 1rem;
+    }
+}

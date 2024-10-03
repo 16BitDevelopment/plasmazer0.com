@@ -1,0 +1,27 @@
+* {
+    --scroll: 0;
+
+    --colour-1: #fff;
+    --colour-2: #8d8d8d;
+    --colour-3: #494949;
+    --colour-4: #1a1a1a;
+    --colour-5: #000;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "t26-carbon", Arial;
+
+    color: var(--colour-1);
+}
+
+:root {
+    color-scheme: dark;
+    background-color: var(--colour-5);
+}
+
+body {
+    background-color: var(--colour-5);
+}
